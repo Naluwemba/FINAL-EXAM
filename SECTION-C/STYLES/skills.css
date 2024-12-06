@@ -1,0 +1,50 @@
+body{
+    background-color:grey;
+}
+
+.hd{
+    position: fixed;
+    padding: 20px 10%;
+    left: 0;
+    top: 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: default;
+    text-decoration: none;
+    
+}
+
+.nav a {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.nav a:hover,
+.nav a.active{
+    color:red;
+
+}
+
+.tbl{
+    border-color: aqua;
+    border-collapse: collapse;
+
+}
+.tbl,th,td{
+    border-radius: 20px;
+    border-collapse: collapse;
+
+ }

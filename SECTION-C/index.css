@@ -1,0 +1,69 @@
+body{
+    background-color:skyblue;
+    
+    
+}
+
+
+.div{
+    float: left;
+    top: 50px;
+    max-width: 600px;
+}
+
+.hd{
+    position: fixed;
+    padding: 20px 10%;
+    left: 0;
+    top: 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: default;
+    text-decoration: none;
+    
+}
+
+.nav a {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.nav a:hover,
+.nav a.active{
+    color:red;
+
+}
+
+
+
+
+
+button :hover{
+    color: red;
+}
+.btn-box a{
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    display: inline-flex;
+    font-size: 19px;
+    justify-content: space-between;
+    position: relative;
+
+
+}

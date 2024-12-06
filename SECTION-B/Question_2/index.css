@@ -1,0 +1,16 @@
+body{
+    background-color: grey;
+
+}
+.header{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    left: 0;
+    top: 0;
+    background: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}
